@@ -1,0 +1,84 @@
+
+header{
+    text-align: center; /*Alineamos el texto al centro*/
+    color: rgb(215, 237, 253);/*Escogemos el color del texto*/
+    font-size: 40px;/*Seleccionamos el tamaño que queremos para nuestro título*/
+    background-color: rgb(10, 36, 68);/*Añadimos un color de fondo al texto del título*/
+    width: 60%;/*Ajustamos el ancho del título*/
+    margin: 0 auto; /*Ajustamos los márgenes*/
+    border-radius: 10px;/*Cambiamos el borde para que no quede tan cuadriculado*/
+    padding: 10px;/*Ajustamos el borde al tamaño del texto*/
+}
+
+body{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/*Escogemos la fuente de texto que vamos a utilizar*/
+    font-size: 15px;
+    background: 
+        url(Imagenes/thumb-1920-503059.jpg);/*Imagen de fondo*/
+    background-size:cover;/*No aseguramos que nuestra imagen cubra toda la superficie de la página web*/
+    background-position: left bottom;/*Ajustamos la posicion de la imagen de fondo*/
+    background-attachment: fixed;/*Fijamos el fondo para que no se mueva al hacer scroll*/
+}
+
+#content{
+    background-color: rgb(77, 90, 105, 0.85);/*Además de añadir nuestro color, podemos añadir un cuarto parámetro que hace referencia a la opacidad (0.85 en este caso)*/
+    width: 60%;/*Ajustamos el ancho del contenido*/
+    margin:0 auto; /*Ajustamos el margen del contenido,  de manera automática*/
+    border-radius: 10px;
+}
+
+#content img{
+    display:block; /*Convertimos nuestra imagen a tipo block para poder manipular su margen y tamaño con mayor facilidad*/
+    margin: auto; /*centramos la imagen*/
+    max-width: 70%; /*Ajustamos el tamaño de la imagen al 70% del bloque de texto para que no toque los bordes*/
+    padding:0px;
+}
+
+#formula{
+    font-size: 30px;
+    padding: 0px;
+    text-align: center;
+}
+
+p{
+    color: rgb(233, 246, 255);
+    text-align: justify;/*Justificamos nuestro texto para darle un aspecto más limpio y ordenado*/
+    padding: 0 30px;
+}
+
+h2{
+    color: rgb(233, 246, 255);
+    text-align: justify;
+    padding: 30px 0px 0px 30px;
+}
+
+a{
+    text-decoration: none;/*Quitamos la decoración de nuestros links para que no se vean cosas como el subrayado de los botones*/
+}
+
+button{
+    border-style: none;
+    border-radius: 25px;
+    font-size: 15px;
+    color:aliceblue;
+    background-color: rgb(5, 42, 87);
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px 30px;/*Aumentamos el tamaño del botón en alto y ancho*/
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+button:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+
+
